@@ -5,9 +5,10 @@ import Foundation
 
 
 
-@available(macOS 10.15, *)
-class SecureApi : ObservableObject{
-    @Published var loading : String = "Football Secure api";
+
+class SecureApi {
+
+    var loading : String = "Football Secure api \(Endpoint().liveget)";
 
 }
 

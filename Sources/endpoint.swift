@@ -6,3 +6,6 @@
 //
 
 import Foundation
+Class Endpoint{
+    let liveget : String = "ascvascascacacascascas";
+}
